@@ -39,6 +39,7 @@
       "Or": "components/OrGate.coffee",
       "Nor": "components/NorGate.coffee",
       "Xor": "components/XorGate.coffee",
+      "Test": "components/Test.coffee",
       "Nand": "components/NandGate.coffee"
     }
   },

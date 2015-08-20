@@ -30,6 +30,7 @@
     "components/NorGate.coffee",
     "components/NandGate.coffee",
     "components/XorGate.coffee",
+    "components/Test.coffee",
     "lib/MathComponent.coffee",
     "lib/Gate.coffee",
     "index.js"
@@ -60,7 +61,8 @@
       "Or": "components/OrGate.coffee",
       "Nor": "components/NorGate.coffee",
       "Xor": "components/XorGate.coffee",
-      "Nand": "components/NandGate.coffee"
+      "Nand": "components/NandGate.coffee",
+      "Test": "components/Test.coffee"
     }
   }
 }

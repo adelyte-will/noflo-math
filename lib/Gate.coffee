@@ -1,8 +1,6 @@
 noflo = require 'noflo'
 
 class Gate extends noflo.Component
-	description: 'Boolean Gate'
-
 	constructor: ->
 		@storage = [null, null]
 
