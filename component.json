@@ -26,13 +26,9 @@
     "components/RangedRandomInt.coffee",
     "components/SendNumber.coffee",
     "components/AndGate.coffee",
-    "components/OrGate.coffee",
-    "components/NorGate.coffee",
-    "components/NandGate.coffee",
-    "components/XorGate.coffee",
     "components/Test.coffee",
+    "components/Gate.coffee",
     "lib/MathComponent.coffee",
-    "lib/Gate.coffee",
     "index.js"
   ],
   "json": [
@@ -58,10 +54,6 @@
       "SendNumber": "components/SendNumber.coffee",
       "Subtract": "components/Subtract.coffee",
       "And": "components/AndGate.coffee",
-      "Or": "components/OrGate.coffee",
-      "Nor": "components/NorGate.coffee",
-      "Xor": "components/XorGate.coffee",
-      "Nand": "components/NandGate.coffee",
       "Test": "components/Test.coffee"
     }
   }

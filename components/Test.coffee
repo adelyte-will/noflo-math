@@ -1,11 +1,11 @@
 {MathComponent} = require '../lib/MathComponent'
 
-class Add extends MathComponent
+class Test extends MathComponent
   icon: 'plus'
   constructor: ->
-    super 'augend', 'addend', 'sum'
+    super 'in0', 'in1', 'out'
 
-  calculate: (augend, addend) ->
-    Number(augend) + Number(addend)
+  calculate: (a, b) ->
+    if Number(a) && Number(b) then 1 else 0
 
-exports.getComponent = -> new Add
+exports.getComponent = -> new Test

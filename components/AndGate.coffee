@@ -1,4 +1,4 @@
-{Gate} = require '../lib/Gate'
+{Gate} = require './Gate'
 
 class AndGate extends Gate
 	evaluate: (array) ->
